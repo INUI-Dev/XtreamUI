@@ -1,3 +1,6 @@
+<?php 
+   include("lang/translation.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
