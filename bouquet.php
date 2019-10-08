@@ -65,10 +65,10 @@ include "header.php"; ?>
                         <div class="page-title-box">
                             <div class="page-title-right">
                                 <ol class="breadcrumb m-0">
-                                    <a href="./bouquets.php"><li class="breadcrumb-item"><i class="mdi mdi-backspace"></i> Back to Bouquets</li></a>
+                                    <a href="./bouquets.php"><li class="breadcrumb-item"><i class="mdi mdi-backspace"></i> <?php echo e("BACKTOBOUQ") ?></li></a>
                                 </ol>
                             </div>
-                            <h4 class="page-title"><?php if (isset($rBouquetArr)) { echo "Edit"; } else { echo "Add"; } ?> Bouquet</h4>
+                            <h4 class="page-title"><?php if (isset($rBouquetArr)) { echo "Edit"; } else { echo "Add"; } ?> <?php echo e("BOUQUET") ?></h4>
                         </div>
                     </div>
                 </div>     
@@ -80,7 +80,7 @@ include "header.php"; ?>
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                            Bouquet operation was completed successfully.
+                            <?php echo e("BOUQSUCCESS") ?>
                         </div>
                         <?php } else if ((isset($_STATUS)) && ($_STATUS > 0)) { ?>
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
