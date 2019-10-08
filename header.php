@@ -61,6 +61,13 @@
                                 <i class="fe-settings noti-icon"></i>
                             </a>
                         </li>
+                        <?php } ?>
+                        <li class="">
+                            <ul><a href="#" class="nav-link right-bar-toggle waves-effect">
+                                <i class="fe-settings noti-icon"></i>
+                                </a></ul>
+                            <ul><a href="?lang=en">English</a></ul>
+                        </li>
                         <li class="notification-list">
                             <a href="./logout.php" class="nav-link right-bar-toggle waves-effect">
                                 <i class="fe-power noti-icon"></i>
