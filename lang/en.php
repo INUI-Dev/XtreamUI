@@ -3,7 +3,7 @@
     $lang = array (
 
        //"String" => "Translated String",
-        "Hello" => "Hello",
+        "SIGNIN" => "SIGN IN",
     );
 
 ?>
