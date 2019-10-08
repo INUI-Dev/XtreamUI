@@ -66,9 +66,9 @@
                         </li>
                         <?php } ?>
                         <li class="">
-                            <ul><a href="#" class="nav-link right-bar-toggle waves-effect">
-                                <i class="fe-settings noti-icon"></i>
-                                </a></ul>
+                            <a href="#" class="nav-link right-bar-toggle waves-effect">
+                                <i class="fas fa-language"></i>
+                                </a>
                             <ul><a href="?lang=en">English</a></ul>
                         </li>
                         <li class="notification-list">
