@@ -147,6 +147,12 @@ include "header.php"; ?>
                                                                 <input type="text" class="form-control" id="live_streaming_pass" name="live_streaming_pass" value="<?=$rSettings["live_streaming_pass"]?>">
                                                             </div>
                                                         </div>
+                                                        <div class="form-group row mb-4">
+                                                            <label class="col-md-4 col-form-label" for="theme">Theme</label>
+                                                            <div class="col-md-8">
+                                                                <input type="text" class="form-control" id="theme" name="theme" value="<?=$rSettings["theme"]?>">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
