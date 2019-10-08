@@ -60,7 +60,7 @@ if ((isset($_POST["username"])) && (isset($_POST["password"]))) {
                                         <input class="form-control" type="password" required="" id="password" name="password" placeholder="Enter your password">
                                     </div>
                                     <div class="form-group mb-0 text-center">
-                                        <button class="btn btn-danger btn-block" type="submit"> SIGN IN </button>
+                                        <button class="btn btn-danger btn-block" type="submit"> <?php echo e("SIGNIN") ?> </button>
                                     </div>
                                 </form>
                             </div> <!-- end card-body -->
