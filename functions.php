@@ -478,4 +478,16 @@ if (isset($_SESSION['user_id'])) {
         if ((($rServer["last_check_ago"] > 0) && ((time() - $rServer["last_check_ago"]) > 360)) OR ($rServer["status"] == 2)) { $rServerError = True; }
     }
 }
+
+function e($text){
+  global $base_lang;
+  if(isset($base_lang) AND $base_lang!="en" AND file_exists("lang/{$base_lang}.php") && strlen($base_lang) <=3) {
+    include("lang/{$base_lang}.php");
+      if (isset($lang[$text]) && !empty($lang[$text])) {
+          return $lang[$text];
+      }
+  }
+    return $text;
+}
+
 ?>
