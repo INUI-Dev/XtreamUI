@@ -3,7 +3,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12  text-center">
-                        Xtream Codes - Admin UI</a> 
+                        <?php echo e("XCUI") ?></a> 
                     </div>
                 </div>
             </div>
