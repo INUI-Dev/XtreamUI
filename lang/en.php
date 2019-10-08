@@ -2,8 +2,12 @@
    // Name: en.php
     $lang = array (
 
-       //"String" => "Translated String",
+       //GENERIC
         "SIGNIN" => "SIGN IN",
+       
+       
+       //BOUQUETS
+       "BACKTOBOQ" => "Back to Bouquets",
     );
 
 ?>
