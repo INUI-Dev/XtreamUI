@@ -3,7 +3,8 @@
     $lang = array (
 
        //GENERIC
-        "SIGNIN" => "SIGN IN",
+       "SIGNIN" => "SIGN IN",
+       "XCUI" => "Xtream Codes - Admin UI",
        
        
        //BOUQUETS
