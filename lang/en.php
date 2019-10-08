@@ -7,7 +7,9 @@
        
        
        //BOUQUETS
-       "BACKTOBOQ" => "Back to Bouquets",
+       "BACKTOBOUQ" => "Back to Bouquets",
+       "BOUQUET" => "Bouquet",
+       "BOUQSUCCESS" => "Bouquet operation was completed successfully.",
     );
 
 ?>
